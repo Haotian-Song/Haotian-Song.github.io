@@ -2,3 +2,5 @@ site_name: Haotian Song's Personal website
 nav:
     - Home: index.md
     - SFXT: SFXT.md
+    - CGI: CGI.md
+    - ULX: ULX.md

@@ -16,6 +16,13 @@ div align=center />
 * 2018/10 Second Prize of Zhufeng Scholarship in 2018
 * 2019/07 First Prize of the China Undergraduate Physics Experiment Competition
 
+## Research Area
+* [Ultra-luminous X-ray Source (ULX)](https://haotian-song.github.io/ULX/)
+* [Computational Ghost Imaging (CGI)](https://haotian-song.github.io/CGI/)
+* [Super Fast X-ray transient (SFXT)](https://haotian-song.github.io/SFXT/)
+* [Classification of Radio Galaxies via BCNN](https://haotian-song.github.io/BCNN/)
+
+
 ## Publication
 Population synthesis on ultra-luminous X-ray sources with an accreting neutron star: Wind Roche-lobe overflow cases
 

@@ -1,4 +1,4 @@
-# Haotian Song 
+# Haotian Song (宋昊天)
 
 Postgraduate student at College of Physics & Astronomy, [University of Manchester](https://www.manchester.ac.uk/)
 
@@ -12,7 +12,7 @@ div align=center />
 * 2021/09 - Now Postgraduate student at College of Physics & Astronomy, [University of Manchester](https://www.manchester.ac.uk/)
 
 ## Awards
-* 2018/12 First Prize of [the Contemporary Undergraduate Mathematical Contest in Modeling](http://en.mcm.edu.cn/) in ShanXi province 
+* 2018/12 Second Prize of [the Contemporary Undergraduate Mathematical Contest in Modeling](http://en.mcm.edu.cn/) in ShanXi province 
 * 2018/10 Second Prize of Zhufeng Scholarship in 2018
 * 2019/07 First Prize of the China Undergraduate Physics Experiment Competition
 

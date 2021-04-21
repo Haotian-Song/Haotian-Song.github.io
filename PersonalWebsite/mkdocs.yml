@@ -5,3 +5,13 @@ nav:
     - CGI: CGI.md
     - ULX: ULX.md
     - BCNN: BCNN.md
+extra_css:
+    - 'stylesheets/extra.css'
+# plugins:
+#     - search
+#     - pdf-export:
+#         verbose: false
+#         media_type: print
+google_analytics:
+  - G-9CTHLW26TQ
+  - auto

@@ -233,9 +233,56 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#codes" class="md-nav__link">
-    Codes
+  <a href="#simulation-program" class="md-nav__link">
+    Simulation Program
   </a>
+  
+    <nav class="md-nav" aria-label="Simulation Program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fortran0415" class="md-nav__link">
+    Fortran0415
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fortranori" class="md-nav__link">
+    FortranOri
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    Python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    Data
+  </a>
+  
+    <nav class="md-nav" aria-label="Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paperplotdata" class="md-nav__link">
+    PaperPlotData
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -365,9 +412,56 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#codes" class="md-nav__link">
-    Codes
+  <a href="#simulation-program" class="md-nav__link">
+    Simulation Program
   </a>
+  
+    <nav class="md-nav" aria-label="Simulation Program">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fortran0415" class="md-nav__link">
+    Fortran0415
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fortranori" class="md-nav__link">
+    FortranOri
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    Python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    Data
+  </a>
+  
+    <nav class="md-nav" aria-label="Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paperplotdata" class="md-nav__link">
+    PaperPlotData
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -426,7 +520,40 @@
                 <h1 id="ultra-luminous-x-ray-source-ulx">Ultra-luminous X-ray Source (ULX)</h1>
 <p>The basic introduction could be found in this <a href="../attachments/%E5%AE%8B%E6%98%8A%E5%A4%A9%E4%B8%AD%E6%9C%9F%E7%AD%94%E8%BE%A920210413.pdf">pdf</a> file (Chinese).</p>
 <h2 id="population-synthesis-on-ulxs-in-star-burst-galaxies">Population Synthesis on ULXs in Star-burst Galaxies</h2>
-<h3 id="codes">Codes</h3>
+<h3 id="simulation-program">Simulation Program</h3>
+<p>There are 4 file folders in this project. All the codes are available on <a href="https://github.com/wonderingmark123/">github</a>. More detailed documents for python files can be download here(<a href="../attachments/README.pdf">Main.py</a>,<a href="../attachments/README_utils.pdf">utils.py</a>) </p>
+<h4 id="fortran0415">Fortran0415</h4>
+<p>modified fortran code BSE</p>
+<ul>
+<li>popbin_mine.f: main function for POPBIN program, get the evolution details of every stage.</li>
+<li>popbin_hanchen.f: POPBIN program. This program is for calculating the birth rate of each binary systems when the Neutron star born.
+More details are available in README_BSE, README_SSE and README_NEW.</li>
+</ul>
+<p>The history of modified could be found in <code>./Fortran0415/note.txt</code>.</p>
+<p>You can run the program on bash:</p>
+<pre><code class="language-bash">make popbin
+./popbin # run popbin program, main program is popbin_mine.f
+</code></pre>
+<h4 id="fortranori">FortranOri</h4>
+<p>This is the original BSE code for backup. There are few demos. You can run them on bash following few steps below:</p>
+<pre><code class="language-bash">sudu apt install make gfortran # install environment
+make popbin bse sse
+
+./popbin # run popbin program, main program is popbin.f which generates plenty of binaries in this program.
+./bse # run bse program, main program is bse.f which generates one particular binary
+./sse # run sse program, main program is sse.f which generates one particular single star.
+</code></pre>
+<h4 id="python">Python</h4>
+<p>This file folder contains all the analysis python program. More details could be found in its document: <code>./python/README.md</code>.</p>
+<h4 id="data">Data</h4>
+<p>This is the file folder for saving data and will not be uploaded to github. </p>
+<h5 id="paperplotdata">PaperPlotData</h5>
+<p>This is the file folder for saving mesa data and popbin data with label being <code>1117</code>.</p>
+<ul>
+<li>1117_paper.mat: popbin data with label being <code>1117</code></li>
+<li>hanchen_first_neutron1124.out: popbin result for mesa plot.</li>
+<li>Lx_N1207.npy: selected data from mesa output data.</li>
+</ul>
 <h2 id="accreting-neutron-star-with-wind-roche-lobe-overflow">Accreting Neutron Star with Wind Roche-lobe Overflow</h2>
 <p>This article had been published in <a href="https://doi.org/10.1051/0004-6361/202140792">A&amp;A</a>. This paper focus on the Neutron Star ULXs and firstly displayed the binary parameters of Wind Roche-lobe Overflow system.</p>
 <h3 id="doi">DOI:</h3>

@@ -1,0 +1,1 @@
+async src="https://www.googletagmanager.com/gtag/js?id=G-2GB0L6X4H7"

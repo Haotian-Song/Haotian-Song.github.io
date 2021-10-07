@@ -1,0 +1,38 @@
+site_name: Haotian Song
+site_url: https://haotian-song.github.io/
+nav:
+    - Home: index.md
+    - ULX: ULX.md
+    - CGI: CGI.md
+    - Galaxy Alignment: Alignment.md
+    - BCNN: BCNN.md
+extra_css:
+    - 'stylesheets/extra.css'
+plugins:
+    - search
+    # - pdf-export
+
+copyright: Copyright © 2021 [Haotian-Song](https://haotian-song.github.io/)
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - meta
+
+site_author: Haotian Song
+theme:
+  name: material
+markdown_extensions:
+  - attr_list
+extra:
+  analytics:
+    provider: google
+    property: G-2GB0L6X4H7
+  disqus: 
+    haotiansong
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wonderingmark123
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:haotian.song@student.manchester.ac.uk
+
+

@@ -1,60 +1,59 @@
 # Haotian Song (宋昊天)
 
-Postgraduate student at College of Physics & Astronomy, [University of Manchester](https://www.manchester.ac.uk/)
+![Portrait of Haotian Song](pics/ServerAvatarImage.jpg){ .profile-photo }
 
-<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">
-[0000-0002-9606-4628](https://orcid.org/0000-0002-9606-4628)
+**Physics PhD candidate · National University of Singapore**<br>
+Centre for Quantum Technologies · Singapore
 
-<img 
-src="./pics/ServerAvatarImage.jpg" 
-width = "120" 
-div align=center />
-## Education experience
-* 2020/08 - Now College of Physics & Astronomy, [University of Manchester](https://www.manchester.ac.uk/)
-  MPhys(Hons) Physics student
-* 2017/09 - 2020/06 [School of Physics](http://phych.xjtu.edu.cn/English/Home.htm) [Xi'an Jiao University, China](http://en.xjtu.edu.cn/)
-  Tsien Hsue-shen Talented Program (top 10%), Bachelor of Science in Physics (Honors)
-* 2014/05 - 2017/06 [Anhui LiXin 1st High School, China](http://www.lxxdyzx.com/)
-* 2019/07 - 2019/08 Summer School at [School of Physics](http://english.phy.pku.edu.cn/) [Peking University](http://english.pku.edu.cn/)
+I work on quantum simulation with ultracold lithium-6 fermions in disordered two-dimensional optical lattices, supervised by Prof. Kai Dieckmann. My research combines experimental quantum hardware, precision optics, laser stabilization and scientific computing. Earlier work spans computational imaging, deep learning and astrophysical population synthesis.
 
+[Email](mailto:haotian.song@u.nus.edu){ .md-button .md-button--primary }
+[Academic CV](attachments/Haotian_Song_Academic_CV.pdf){ .md-button }
+[GitHub](https://github.com/Haotian-Song){ .md-button }
+[ORCID](https://orcid.org/0000-0002-9606-4628){ .md-button }
 
-## Awards
-* 06/2021 Outstanding Graduate Thesis Award (Top 1%)
-* 07/2021 Everest Scholarship, Xi’an Jiaotong University
-* 05/2020 Tsien Hsue-shen Academic Research Award
-* 10/2020 Academic Research Award, Xi’an Jiaotong University	
-* --/2020 Provincial Award for China Undergraduates Innovation and Entrepreneurship Competition
-* 07/2019 [First Prize of the 5th Chinese Undergraduate Physics Experiment Competition](http://phych.xjtu.edu.cn/info/1024/5384.htm)
-* 11/2019 Outstanding Student Cadre, Xi'an Jiaotong University
-* 11/2019 Third-Class Scholarship, Xi’an Jiaotong University
-* 12/2018 First Prize of [the Contemporary Undergraduate Mathematical Contest in Modeling](http://en.mcm.edu.cn/) in ShaanXi province 
-* 11/2018 Outstanding Student, Xi'an Jiaotong University
-* 11/2018 Second-Class Scholarship, Xi’an Jiaotong University
-* 10/2018 Second Prize of Everest Scholarship in 2018, Xi'an Jiaotong University
+## Research
 
-## Research Area
-* [Ultra-luminous X-ray Source (ULX)](./ULX.md)
-* [Computational Ghost Imaging (CGI)](./CGI.md)
-* [Galaxy Alignment](./Alignment.md)
-* [BCNN](./BCNN.md)
+- **Ultracold atoms and quantum simulation.** Building and operating a lithium-6 platform for fermions in disordered 2D optical lattices, including lattice loading, confinement and calibration. [Doctoral research](quantum.md).
+- **Precision optics and experimental control.** Optical lattices, laser frequency and intensity stabilization, absorption imaging, optical transport and feedback systems.
+- **Computational imaging.** Deep-learning ghost imaging at 0.8% Nyquist sampling and correlated speckle patterns. [Computational imaging research](CGI.md).
+- **Scientific modeling.** Population synthesis of neutron-star ultraluminous X-ray sources with wind Roche-lobe overflow. [Earlier astrophysics work](ULX.md).
 
+## Education
 
-## Publication
-- Z. Zuo†, **H. Song**, H. Xue, “Population synthesis on ultra-luminous X-ray sources with an accreting neutron star: Wind Roche-lobe overflow cases”. [A&A 649, L2 (2021)](https://www.aanda.org/articles/aa/abs/2021/05/aa40792-21/aa40792-21.html)
-- **H. Song**, X. Nie, H. Su, H. Chen, Y. Zhou, X. Zhao, T. Peng†, M. O. Scully, “0.8% Nyquist noise-free computational ghost imaging via non-experimental deep learning”, submitted to Scientific Report, arXiv:[2108.07673](https://arxiv.org/abs/2108.07673)
-- X. Nie, **H. Song**, T. Peng†, Z. Zhang†, and M. O. Scully, “Deep-learned speckle patterns and its application to ghost imaging”.
+**National University of Singapore — PhD in Physics, in progress**<br>
+January 2022 – January 2027 (expected) · Centre for Quantum Technologies<br>
+Research: quantum simulation of fermions in disordered 2D optical lattices. Supervisor: Prof. Kai Dieckmann.
 
-## Useful tools
+**Xi'an Jiaotong University — BSc in Physics (Honors)**<br>
+September 2017 – June 2021 · Tsien Hsue-shen Talented Program (top 10%)<br>
+GPA: 89.37/100.
 
-Transfer latex equation to office equation in [Mathjax](https://www.mathjax.org/#demo)
+Additional academic experience includes the University of Manchester, Texas A&M University and the Peking University School of Physics Summer School.
 
+## Publications and presentations
 
-## Contact me
-Github: [wonderingmark123]( https://github.com/wonderingmark123)
+My published research covers deep correlated speckles (*Photonics Research*, 2024), computational ghost imaging (*Optics Communications*, 2022; first author) and neutron-star ultraluminous X-ray sources (*Astronomy & Astrophysics*, 2021).
 
-E-mail: [haotian.song@student.manchester.ac.uk](mailto:haotian.song@student.manchester.ac.uk)
+[Full publication list and conference presentations](publications.md)
 
-QQ: 490785554
+## Technical skills
 
-Telephone:(+86)13720537361
+**Experimental systems:** ultracold atoms, lithium-6 Fermi gases, molecular BEC preparation, ultrahigh vacuum, Feshbach resonance control, absorption imaging, band mapping and amplitude modulation spectroscopy.
 
+**Optics and control:** optical alignment, beam shaping, PDH and modulation-transfer locking, AOM/EOM control, PZT feedback, speckle projection and precision calibration.
+
+**Computing:** Python, MATLAB, LabVIEW, Zemax, Mathematica, Fortran, C++, Linux and LaTeX; image processing, numerical fitting, Monte Carlo simulation and deep-learning reconstruction.
+
+## Selected awards
+
+- Outstanding Graduate Thesis Award (top 1%), Xi'an Jiaotong University, 2021.
+- Everest Scholarship, Xi'an Jiaotong University, 2021 and 2018.
+- First Prize, 5th Chinese Undergraduate Physics Experiment Competition, 2019.
+- First Prize, Contemporary Undergraduate Mathematical Contest in Modeling, Shaanxi Province, 2018.
+
+## Contact
+
+I am interested in research and development opportunities in quantum technology, photonics and semiconductor equipment.
+
+[haotian.song@u.nus.edu](mailto:haotian.song@u.nus.edu) · [GitHub](https://github.com/Haotian-Song) · [ORCID: 0000-0002-9606-4628](https://orcid.org/0000-0002-9606-4628)

@@ -1,1 +1,8 @@
-@page { size: a4 portrait; margin: 25mm 10mm 25mm 10mm; counter-increment: page; font-family: "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei Mono", "Material Icons", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; white-space: pre; color: grey; @top-left { content: ' 2018 Tangramor'; } @top-center { content: string(chapter); } @top-right { content: '页：' counter(page); } }
+:root { --md-text-font: "Segoe UI", sans-serif; }
+.md-typeset { line-height: 1.75; }
+.md-typeset h1 { font-weight: 700; letter-spacing: -0.035em; color: var(--md-default-fg-color); }
+.md-typeset h2 { font-weight: 650; letter-spacing: -0.02em; }
+.profile-photo { float: right; width: 120px; border-radius: 16px; margin: 0 0 1rem 1.5rem; }
+.md-typeset .md-button { margin: .3rem .3rem .3rem 0; padding: .45em .9em; border-radius: 7px; font-size: .75rem; }
+@media (max-width: 600px) { .profile-photo { float: none; display: block; margin: 0 0 1rem; width: 100px; } }
+@media print { .md-header, .md-sidebar, .md-footer, .md-top { display: none; } }

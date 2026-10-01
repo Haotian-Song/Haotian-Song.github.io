@@ -1,4 +1,4 @@
-# Quantum simulation with ultracold fermions
+# Quantum Simulation
 
 My doctoral research at the Centre for Quantum Technologies, National University of Singapore, focuses on **quantum simulation of fermions in disordered two-dimensional optical lattices**. I work with Prof. Kai Dieckmann and contribute to building, operating and characterizing an ultracold lithium-6 experimental platform.
 

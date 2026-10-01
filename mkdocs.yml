@@ -4,11 +4,11 @@ site_author: Haotian Song
 site_description: NUS Physics PhD candidate working on ultracold atoms, quantum simulation and computational imaging.
 nav:
   - Home: index.md
-  - Quantum Research: quantum.md
+  - Quantum Simulation: quantum.md
   - Publications: publications.md
-  - Computational Imaging: CGI.md
+  - Ghost Image: CGI.md
+  - ULX: ULX.md
   - Earlier Projects:
-      - Ultraluminous X-ray Sources: ULX.md
       - Radio Galaxy Classification: BCNN.md
       - Galaxy Alignment: Alignment.md
       - X-ray Transients: SFXT.md

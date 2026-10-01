@@ -1,4 +1,4 @@
-# Computational imaging and correlated speckles
+# Ghost Image
 
 Computational ghost imaging reconstructs an image from known illumination patterns and measurements of the total transmitted or reflected intensity. My work combines structured speckle illumination with deep learning to study reconstruction at low sampling ratios.
 
